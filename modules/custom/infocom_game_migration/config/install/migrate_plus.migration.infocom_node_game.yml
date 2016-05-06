@@ -1,0 +1,23 @@
+id: infocom_node_game
+label: Infocom Game Node Migration
+migration_group: infocom
+migration_tags:
+  - CSV
+
+destination:
+  plugin: entity:node
+
+process:
+  type:
+    plugin: default_value
+    default_value: game
+
+  title: title
+  field_authors:
+    plugin: migration
+    migration: infocom_term_author
+    source: authors
+
+migration_dependencies:
+  required:
+    - infocom_term_author

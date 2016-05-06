@@ -18,9 +18,18 @@ projects:
     version: "3.x-dev"
   drupal:
     version: ~
+    patch:
+      # https://www.drupal.org/node/2560795
+      - "https://www.drupal.org/files/issues/source_plugins_have_a-2560795-64.patch"
   devel:
     version: ~
   features:
+    version: ~
+  migrate_source_csv:
+    version: ~
+  migrate_plus:
+    version: ~
+  migrate_tools:
     version: ~
   page_manager:
     version: "1.x-dev"

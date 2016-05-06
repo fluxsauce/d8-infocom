@@ -50,7 +50,7 @@ $settings['trusted_host_patterns'] = array(
 );
 
 // Redis.
-if (TRUE) {
+if (FALSE) {
   $settings['container_yamls'][] = 'modules/contrib/redis/example.services.yml';
   $settings['redis.connection']['interface'] = 'PhpRedis';
   $settings['redis.connection']['host'] = '127.0.0.1';

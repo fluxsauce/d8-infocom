@@ -1,0 +1,10 @@
+name: Infocom Game Migration
+type: module
+description: Migration of descriptions and metadata of Infocom interactive fiction games.
+core: 8.x
+package: Infocom
+dependencies:
+  - feature_infocom_game
+  - migrate_plus
+  - migrate_tools
+  - migrate_source_csv

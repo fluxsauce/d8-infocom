@@ -1,0 +1,46 @@
+id: infocom
+label: Infocom Games
+description: A few simple beer-related imports, to demonstrate how to implement migrations.
+source_type: CSV in public://migration/infocom_games.csv
+shared_configuration:
+  source:
+    plugin: csv
+    path: public://migration/infocom_games.csv
+    header_row_count: 1
+    keys:
+      - num
+    column_names:
+      0:
+        input: Input
+      1:
+        num: Number
+      2:
+        widgetName: Widget Name
+      3:
+        source: Source
+      4:
+        resultNumber: Result Number
+      5:
+        pageUrl: Page URL
+      6:
+        title: Title
+      7:
+        authors: Authors
+      8:
+        year_released: Year Released
+      9:
+        year_released_source: Year Released Source
+      10:
+        genre: Genre
+      11:
+        difficulty: Difficulty
+      12:
+        description: Description
+      13:
+        covers: Covers
+      14:
+        covers_source: Covers Source
+      15:
+        covers_title: Covers Title
+      16:
+        covers_alt: Covers Alt

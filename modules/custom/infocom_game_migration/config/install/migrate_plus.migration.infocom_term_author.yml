@@ -1,0 +1,15 @@
+id: infocom_term_author
+label: Migrate game authors into the Author taxonomy.
+migration_group: infocom
+
+destination:
+  plugin: entity:taxonomy_term
+
+process:
+  name: authors
+
+  vid:
+    plugin: default_value
+    default_value: author
+
+migration_dependencies: {}
