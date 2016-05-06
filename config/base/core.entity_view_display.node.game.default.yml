@@ -1,0 +1,62 @@
+uuid: 086aad9a-485b-4a7b-a60d-5dad2ea779d5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.game.body
+    - field.field.node.game.field_authors
+    - field.field.node.game.field_covers
+    - field.field.node.game.field_date_release
+    - field.field.node.game.field_genres
+    - node.type.game
+  module:
+    - datetime
+    - image
+    - text
+    - user
+id: node.game.default
+targetEntityType: node
+bundle: game
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+  field_authors:
+    weight: 103
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  field_covers:
+    weight: 105
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_date_release:
+    weight: 102
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: html_year
+    third_party_settings: {  }
+    type: datetime_default
+  field_genres:
+    weight: 104
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

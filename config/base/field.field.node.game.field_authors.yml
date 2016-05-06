@@ -1,0 +1,28 @@
+uuid: 8e0daa10-842b-4021-9066-6696ec2df17b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_authors
+    - node.type.game
+    - taxonomy.vocabulary.author
+id: node.game.field_authors
+field_name: field_authors
+entity_type: node
+bundle: game
+label: Authors
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      author: author
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

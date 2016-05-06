@@ -1,0 +1,21 @@
+uuid: 82e3d72e-b1f9-40f3-974b-a0cd61e22a33
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_release
+    - node.type.game
+  module:
+    - datetime
+id: node.game.field_date_release
+field_name: field_date_release
+entity_type: node
+bundle: game
+label: 'Release Date'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

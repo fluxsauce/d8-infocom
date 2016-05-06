@@ -1,0 +1,9 @@
+uuid: febc4f66-1c0e-43e1-8a9f-f1bd795be832
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: g
+description: ''
+hierarchy: 0
+weight: 0

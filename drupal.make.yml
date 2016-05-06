@@ -7,6 +7,8 @@ defaults:
     subdir: "contrib"
 
 projects:
+  admin_toolbar:
+    version: "1.14"
   config_installer:
     type: "profile"
     version: "1.3"

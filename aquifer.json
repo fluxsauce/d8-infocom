@@ -30,7 +30,7 @@
   },
   "run": {
     "scripts": {
-      "config-export": [
+      "local-config-export": [
         "drush @d8-infocom.local config-export --destination=sites/default/config/base --yes"
       ],
       "local-install": [
