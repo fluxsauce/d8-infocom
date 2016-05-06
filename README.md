@@ -28,14 +28,26 @@ vagrant up
 npm run aquifer build
 # Install.
 npm run aquifer run local-install
-# Configure.
-npm run aquifer run local
-# Set alias.
+```
+
+## Interacting with the site
+
+http://d8-infocom.local
+
+Drush:
+
+```bash
 drush use @d8-infocom.local
+```
+
+## Importing Configuration
+
+```bash
+npm run aquifer run local
 ```
 
 ## Exporting Configuration
 
-```
+```bash
 npm run aquifer run config-export
 ```

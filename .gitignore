@@ -13,6 +13,7 @@ vendor
 .vagrant
 vm
 dashboard
+html
 
 # Aquifer.
 build/*
