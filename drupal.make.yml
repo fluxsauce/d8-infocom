@@ -1,0 +1,25 @@
+core: 8.x
+api: 2
+
+# Common attributes.
+defaults:
+  projects:
+    subdir: "contrib"
+
+projects:
+  drupal:
+    version: ~
+  devel:
+    version: ~
+  page_manager:
+    version: "1.x-dev"
+    patch:
+      # https://www.drupal.org/node/2601004
+      - "https://www.drupal.org/files/issues/page-manager-contextual-temp.patch"
+      # https://www.drupal.org/files/issues/2634276
+      - "https://www.drupal.org/files/issues/2634276-pm-19.patch"
+  panels:
+    version: "3.x-dev"
+    patch:
+      # https://www.drupal.org/node/2697587
+      - "https://www.drupal.org/files/issues/wizard_api_integration-2697587-6.patch"

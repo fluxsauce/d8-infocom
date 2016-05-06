@@ -1,0 +1,32 @@
+# General ignores
+.DS_Store
+.idea
+*.iml
+*.log
+*.tgz
+node_modules
+
+# Composer
+vendor
+
+# Drupal VM
+.vagrant
+vm
+dashboard
+
+# Aquifer.
+build/*
+!build/.gitkeep
+
+modules/README.txt
+themes/README.txt
+modules/contrib
+themes/contrib
+
+files/*
+!files/.gitkeep
+
+settings.local.php
+settings.secret.php
+
+.aquifer/node_modules

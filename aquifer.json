@@ -1,0 +1,36 @@
+{
+  "name": "infocom",
+  "core": 8,
+  "paths": {
+    "make": "drupal.make.yml",
+    "lock": false,
+    "settings": "settings",
+    "build": "build",
+    "root": "root",
+    "drush": "drush",
+    "themes": {
+      "root": "themes",
+      "contrib": "themes/contrib",
+      "custom": "themes/custom"
+    },
+    "modules": {
+      "root": "modules",
+      "contrib": "modules/contrib",
+      "custom": "modules/custom",
+      "features": "modules/features"
+    },
+    "files": {
+      "root": "files"
+    },
+    "configDirectories": {
+      "root": "config",
+      "buildConfig": "sites/default/config",
+      "base": "config/base"
+    }
+  },
+  "run": {
+    "scripts": {}
+  },
+  "extensions": {},
+  "environments": {}
+}
