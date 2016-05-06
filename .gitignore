@@ -28,6 +28,7 @@ themes/contrib
 files/*
 !files/.gitkeep
 !files/.htaccess
+!files/migration
 
 # Settings; allow default local configuration.
 settings.local.php
