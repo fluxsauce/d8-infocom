@@ -49,5 +49,5 @@ npm run aquifer run local-config-import
 ## Exporting Configuration
 
 ```bash
-npm run aquifer run config-export
+npm run aquifer run local-config-export
 ```

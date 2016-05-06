@@ -6,6 +6,8 @@ dependencies:
     - field.storage.node.field_authors
     - node.type.game
     - taxonomy.vocabulary.author
+_core:
+  default_config_hash: E5SwpQt8Y6G2PYSij1W5_tmoxKePGOiEnWgE9Irjnws
 id: node.game.field_authors
 field_name: field_authors
 entity_type: node

@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: 'A <em>Genre</em> is a category characterized by similarities in form, style, or subject matter.'
+hierarchy: 0
+weight: 0

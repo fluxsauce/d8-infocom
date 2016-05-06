@@ -1,4 +1,3 @@
-uuid: 086aad9a-485b-4a7b-a60d-5dad2ea779d5
 langcode: en
 status: true
 dependencies:
@@ -7,15 +6,12 @@ dependencies:
     - field.field.node.game.field_authors
     - field.field.node.game.field_covers
     - field.field.node.game.field_date_release
-    - field.field.node.game.field_genres
     - node.type.game
   module:
     - datetime
     - image
     - text
     - user
-_core:
-  default_config_hash: 3zZuZhhn68uhKrWJrbnjLllbS6Rr8ZPUy4RH0_fT2wo
 id: node.game.default
 targetEntityType: node
 bundle: game
@@ -54,5 +50,4 @@ content:
     weight: 100
     settings: {  }
     third_party_settings: {  }
-hidden:
-  field_genres: true
+hidden: {  }

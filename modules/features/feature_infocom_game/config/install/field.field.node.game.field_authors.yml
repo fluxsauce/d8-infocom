@@ -1,18 +1,15 @@
-uuid: afb7b52c-4146-4ff3-8241-5c7bec65d201
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_genres
+    - field.storage.node.field_authors
     - node.type.game
-    - taxonomy.vocabulary.genre
-_core:
-  default_config_hash: 0F4Hesp6YJMtJbT73Izl5JGh4oQ7xrnkpjMH9_u6tAo
-id: node.game.field_genres
-field_name: field_genres
+    - taxonomy.vocabulary.author
+id: node.game.field_authors
+field_name: field_authors
 entity_type: node
 bundle: game
-label: Genres
+label: Authors
 description: ''
 required: false
 translatable: false
@@ -22,7 +19,7 @@ settings:
   handler: 'default:taxonomy_term'
   handler_settings:
     target_bundles:
-      genre: genre
+      author: author
     sort:
       field: _none
     auto_create: true

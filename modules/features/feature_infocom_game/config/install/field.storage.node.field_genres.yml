@@ -1,12 +1,9 @@
-uuid: 4b28b886-d484-4ab3-8e53-943ec4b9b0b9
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - taxonomy
-_core:
-  default_config_hash: ex0LlE9OaXH_7a4IxT-qaXdiulVZESvJLGQ0q-hG3JY
 id: node.field_genres
 field_name: field_genres
 entity_type: node

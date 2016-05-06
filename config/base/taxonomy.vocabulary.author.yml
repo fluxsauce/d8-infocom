@@ -2,6 +2,8 @@ uuid: b58cd97b-c77b-4374-b92f-0630b0ba957e
 langcode: en
 status: true
 dependencies: {  }
+_core:
+  default_config_hash: lfmwqMRhHXIgRhXE6LNa_8hw8joIu99j7FWPZpFIbKw
 name: Author
 vid: author
 description: ''

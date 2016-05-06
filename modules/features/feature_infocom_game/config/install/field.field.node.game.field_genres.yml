@@ -1,4 +1,3 @@
-uuid: afb7b52c-4146-4ff3-8241-5c7bec65d201
 langcode: en
 status: true
 dependencies:
@@ -6,8 +5,6 @@ dependencies:
     - field.storage.node.field_genres
     - node.type.game
     - taxonomy.vocabulary.genre
-_core:
-  default_config_hash: 0F4Hesp6YJMtJbT73Izl5JGh4oQ7xrnkpjMH9_u6tAo
 id: node.game.field_genres
 field_name: field_genres
 entity_type: node

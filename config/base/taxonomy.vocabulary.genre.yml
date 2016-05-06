@@ -1,0 +1,11 @@
+uuid: d0363ba9-a85f-4ba8-baa6-52cd87537ae0
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7dMXkkHJgO6SvxDehYx2FYaYtN3rdvK-muFfk9Az5rQ
+name: Genre
+vid: genre
+description: 'A <em>Genre</em> is a category characterized by similarities in form, style, or subject matter.'
+hierarchy: 0
+weight: 0
