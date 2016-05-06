@@ -17,6 +17,7 @@ dashboard
 # Aquifer.
 build/*
 !build/.gitkeep
+.aquifer/node_modules
 
 modules/README.txt
 themes/README.txt
@@ -26,7 +27,9 @@ themes/contrib
 files/*
 !files/.gitkeep
 
+# Settings; allow default local configuration.
 settings.local.php
+!local/settings.local.php
 settings.secret.php
+!local/settings.secret.php
 
-.aquifer/node_modules
