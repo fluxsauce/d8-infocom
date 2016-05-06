@@ -27,6 +27,7 @@ themes/contrib
 
 files/*
 !files/.gitkeep
+!files/.htaccess
 
 # Settings; allow default local configuration.
 settings.local.php
