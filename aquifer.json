@@ -25,6 +25,7 @@
     "configDirectories": {
       "root": "config",
       "buildConfig": "sites/default/config",
+      "local": "config/local",
       "base": "config/base"
     }
   },

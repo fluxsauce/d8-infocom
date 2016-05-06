@@ -259,7 +259,10 @@ composer_home_group: "{{ drupalvm_user }}"
 # Run specified scripts after VM is provisioned. Path is relative to the
 # `provisioning/playbook.yml` file.
 post_provision_scripts:
+  # Workaround for PHP CLI double-inclusion of OPCache.
   - "../../scripts/drupalvm_remove_extra_opcache.sh"
+  # Workaround for missing PHP CLI redis.
+  - "../../scripts/drupalvm_redis_cli.sh"
 
 # MySQL Configuration.
 mysql_root_password: root

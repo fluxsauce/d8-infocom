@@ -49,6 +49,17 @@ $settings['trusted_host_patterns'] = array(
   '^d8-infocom\.local$',
 );
 
+// Redis.
+if (TRUE) {
+  $settings['container_yamls'][] = 'modules/contrib/redis/example.services.yml';
+  $settings['redis.connection']['interface'] = 'PhpRedis';
+  $settings['redis.connection']['host'] = '127.0.0.1';
+  $settings['cache']['default'] = 'cache.backend.redis';
+  $settings['cache']['bins']['bootstrap'] = 'cache.backend.chainedfast';
+  $settings['cache']['bins']['discovery'] = 'cache.backend.chainedfast';
+  $settings['cache']['bins']['config'] = 'cache.backend.chainedfast';
+}
+
 // Local settings.
 if (file_exists(__DIR__ . '/settings.local.php')) {
   require __DIR__ . '/settings.local.php';

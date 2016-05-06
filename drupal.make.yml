@@ -34,3 +34,8 @@ projects:
     patch:
       # https://www.drupal.org/node/2697587
       - "https://www.drupal.org/files/issues/wizard_api_integration-2697587-6.patch"
+  redis:
+    download:
+      type: git
+      url: https://github.com/md-systems/redis.git
+      branch: 8.x-1.x
