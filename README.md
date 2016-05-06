@@ -43,7 +43,7 @@ drush use @d8-infocom.local
 ## Importing Configuration
 
 ```bash
-npm run aquifer run local
+npm run aquifer run local-config-import
 ```
 
 ## Exporting Configuration

@@ -38,7 +38,7 @@
         "drush @d8-infocom.local site-install config_installer --account-pass=admin --config-dir=sites/default/config/base --yes",
         "chmod go-w sites/default/settings.php"
       ],
-      "local": [
+      "local-config-import": [
         "drush @d8-infocom.local updb --yes",
         "drush @d8-infocom.local cache-rebuild --yes",
         "drush @d8-infocom.local config-import --source=sites/default/config/base --yes"
