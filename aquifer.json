@@ -29,7 +29,11 @@
     }
   },
   "run": {
-    "scripts": {}
+    "scripts": {
+      "config-export": [
+        "drush @d8-infocom.local config-export --destination=sites/default/config/base --yes"
+      ]
+    }
   },
   "extensions": {},
   "environments": {}

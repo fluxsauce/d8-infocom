@@ -1,0 +1,12 @@
+uuid: 0888aa5b-d5bf-474a-a578-219add1dc526
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - username@example.com
+reply: ''
+weight: 0
